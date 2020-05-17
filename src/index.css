@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+     #map {
+      height: 50%;
+      width: 100%;
+      background-color: grey;
+      /* margin-left: 100px; */
+      /* float: left; */
+      display:table-cell;
+      width:50%;
+    }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #panell
+    {
+      display: table;
+      height: 50%;
+      width: 100%;
+      margin: 0;
+      border : 0;
+      position: absolute;
+      /* padding-left: 20%; */
+    }
+
+    /* TODO: Step 4A1: Make a generic sidebar */
+    /* Styling for an info pane that slides out from the left. 
+     * Hidden by default. */
+    #panel {
+      height: 20%;
+      width: null;
+      background-color: white;
+      /* position: relative; */
+      z-index: 1;
+      overflow-x: hidden;
+      /* float: right; */
+      transition: all .2s ease-out;
+      display:table-cell;
+       width:50%;
+    }
+    
+    /* #close {
+      float: right;
+      display:inline-block;
+      padding:2px 5px;
+      background:#ccc;
+  } */
+    .open {
+      width: 50%;
+      height: 10%;
+    }
+
+    /* Styling for place details */
+    .hero {
+      width: 25%;
+      height: 25%;
+      max-height: 166px;
+      display: block;
+    }
+
+    .place,
+    p {
+      font-family: 'open sans', arial, sans-serif;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    .details {
+      color: black;
+    }
+
+    a {
+      text-decoration: none;
+      color: cadetblue;
+    }

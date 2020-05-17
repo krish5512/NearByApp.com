@@ -1,0 +1,782 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CqQCEwEAAK__xnSIzr0IcLZPgAgu3yG5b1NUcMzNxDYr0wCMqScmmr4Uls8tDbJuFJN_OCcRAGfN6Fjx9OZqICOm2K0GxGL11Gwh7SFu0qcD3vgYeilpuyUJHk5fzSOKGzomFtjXYXY27Sjd5MtdyALXn7Pp8OK4Hsl7IbUZmRyNk7YmE2xbT_JnLefAqyQJdFZgwmdtAZoeIKvCHXDE4H7Zv3zB3REmElvY5EnZXLjfgeAImQowe3nE_v_4mEfNN7y6ipqSJUS1_uvvgIoqxoe5GnggZUnOJviP0IU6JeTaxKoaohfrnTIBh6u6JxbuveIqoUdeYt22iwybgPAyenF0UKaQYzV5lP2RCd9gk93eWCP4hJNn8-2BYaz7dR7l0OjF2Kb5KhIQ6DKw_3WtvEa53Sxyf7QKARoU7g1bovFwIg5Rj2fkE98ekq9t9sE",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 28.6691565,
+               "lng" : 77.45375779999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.7969614,
+                  "lng" : 77.5562668
+               },
+               "southwest" : {
+                  "lat" : 28.6023449,
+                  "lng" : 77.23378989999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "ff192f6237e1a6c67fe2d06a27f31ced3c4de757",
+         "name" : "Ghaziabad",
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100923482555300293907\"\u003eFunky Amit\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA-hgclCEVXjboBgi21Dx1fbEL6uJKiSved9MwgCXH3cC2R95V0Oc49OkTezaTmwBheLtXwRT0OZHUIDTSADkI0bveVH_58YqMIceSAhPvcWjIPADXWWxtBfmE6W6S9tC6EhA2NtaoAnMRvxvtNmKU-sZ3GhSSXdvB7mepQu3bNLmEDmrFte_cAg",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJ3w_FQbvxDDkRuph3atJv8OY",
+         "reference" : "ChIJ3w_FQbvxDDkRuph3atJv8OY",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.64360529999999,
+               "lng" : 77.34500009999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6449241802915,
+                  "lng" : 77.3463192802915
+               },
+               "southwest" : {
+                  "lat" : 28.64222621970849,
+                  "lng" : 77.34362131970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+         "id" : "94c7ce0fef5f75a0b5026d5f418c0dc3353058ea",
+         "name" : "HDFC Bank",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 300,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102387079370204007975\"\u003eHDFC Bank\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA4RVF2zWfzfeMAJVUQekMkAfwDYf-YjTlTK57kBJ5zzmGMRkA8tT8uKQXn8Wqj94tx7n-WU4O2QylM2CFgwcGo2n68ZQwXZsDJBp7PbcsBxO1o76avjQbtUcGiSsjz4hLEhBUF2SXZQSfty4CR6Bza32TGhT8_GBIeNjggNjDzi1m611PsVKXcA",
+               "width" : 300
+            }
+         ],
+         "place_id" : "ChIJwa0uORMR7TkREdKzJNAowLA",
+         "plus_code" : {
+            "compound_code" : "J8VW+C2 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+C2"
+         },
+         "rating" : 2.5,
+         "reference" : "ChIJwa0uORMR7TkREdKzJNAowLA",
+         "scope" : "GOOGLE",
+         "types" : [ "bank", "finance", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "HDFC Bank LTD, PN 83, सेक्टर ५, वैशाली, गाजियाबाद"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.643469,
+               "lng" : 77.34524700000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6447743302915,
+                  "lng" : 77.3465580302915
+               },
+               "southwest" : {
+                  "lat" : 28.6420763697085,
+                  "lng" : 77.3438600697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ad8e6a147343ac7e5f90d6a34efa0b6349ae4e19",
+         "name" : "Home Maintenance Service",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114247731582594936842\"\u003eHarish Chandra\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAUrEYWAMINOI87I-fb8qdw_ekbNW3qzi1m0b3SQUV3aNz8kU2KyLgks-GbxyjamwogVVTi8g6i3mku1sdbLXCIl84S2mlxEVzzDajFwWmDDFlJ7YcP05sf5p8X857bS_xEhDDTN7BnrYHrzSpE1fGDsILGhS-Mep5Na9sowy2CNrNr579T3tYDA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJqWGWN876DDkReFjex6DuwvI",
+         "plus_code" : {
+            "compound_code" : "J8VW+93 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+93"
+         },
+         "rating" : 1,
+         "reference" : "ChIJqWGWN876DDkReFjex6DuwvI",
+         "scope" : "GOOGLE",
+         "types" : [ "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Office No 798,sec-5 Vaishali, Ghazibad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.643363,
+               "lng" : 77.345395
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6446705302915,
+                  "lng" : 77.3467079802915
+               },
+               "southwest" : {
+                  "lat" : 28.6419725697085,
+                  "lng" : 77.34401001970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e0ce544cd0b0fbde47d35ae3c2f2004468f42c6d",
+         "name" : "N R Creative Team",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101574695041542805621\"\u003eN R Creative Team\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAAVlj2H5UhsOxKorgl3PfRrCMnl_ZZ1G3eNpGYRdt4DsYNIlZV5K-tdPEfwm8H5ls8Ujz1P5Fpe4LZ0nwKHnOSPZOvDiIXAoYNFOgGuXopXQBW6T92AOcuWfxa1IdVdAjDEhBZ-9eTr335W9zgJ-JvDzx-GhQ90LHYCmc6ZFjO9Qp2Gx9m9dXXsg",
+               "width" : 592
+            }
+         ],
+         "place_id" : "ChIJ50yRt9v6DDkRo5jiFtsyoic",
+         "plus_code" : {
+            "compound_code" : "J8VW+85 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+85"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ50yRt9v6DDkRo5jiFtsyoic",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Vaishali, Ghaizbad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.6435096,
+               "lng" : 77.3459112
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6448452302915,
+                  "lng" : 77.34724918029151
+               },
+               "southwest" : {
+                  "lat" : 28.6421472697085,
+                  "lng" : 77.34455121970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1b816ce3b7f7705e8c511eba6ed33f290d9741ac",
+         "name" : "Roshan Mother Dairy",
+         "place_id" : "ChIJ76idT876DDkRyab0Shi7CM0",
+         "plus_code" : {
+            "compound_code" : "J8VW+C9 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+C9"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ76idT876DDkRyab0Shi7CM0",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Kalpana Apartment, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.6441535,
+               "lng" : 77.3453442
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6455410302915,
+                  "lng" : 77.3467242302915
+               },
+               "southwest" : {
+                  "lat" : 28.6428430697085,
+                  "lng" : 77.34402626970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "1c1b2a5c3842e1481174f3d20c21e0207b7c67db",
+         "name" : "Kerala Store",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4128,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106572452369992215893\"\u003eYuvraj k.v\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAUyPjteccIxh_XtWHZ9aEl7Z9tk82A7H6bh2NEZMQEFDpk40TnKE4YbxIAKLApxe_GaE3fnzKOKCO0hYggo4LhKg7frDBXyTKcQ3MQlN0XuUvb0lRolreab6a-lFBBhjhEhB_tOLuTM05FN0oM0aLUbozGhTnPrmgTZC6PgxhFVvnJMfFPHIFvw",
+               "width" : 2322
+            }
+         ],
+         "place_id" : "ChIJVVVkRM76DDkRzIHvWacqByQ",
+         "plus_code" : {
+            "compound_code" : "J8VW+M4 Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+M4"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJVVVkRM76DDkRzIHvWacqByQ",
+         "scope" : "GOOGLE",
+         "types" : [ "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 25,
+         "vicinity" : "5/17, Kalpana, Vaishali Sector 5, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.64330259999999,
+               "lng" : 77.3456236
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6446813802915,
+                  "lng" : 77.34699628029149
+               },
+               "southwest" : {
+                  "lat" : 28.6419834197085,
+                  "lng" : 77.34429831970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "50aab0ac2652d45211791dbe57966376fe3d37f8",
+         "name" : "Computer System Solution Associate.",
+         "place_id" : "ChIJFVZCRs76DDkRE1JinSbA3_M",
+         "plus_code" : {
+            "compound_code" : "J8VW+86 Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+86"
+         },
+         "reference" : "ChIJFVZCRs76DDkRE1JinSbA3_M",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "157 C, Kamna Vaishali sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.64330259999999,
+               "lng" : 77.3456236
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6446813802915,
+                  "lng" : 77.34699628029149
+               },
+               "southwest" : {
+                  "lat" : 28.6419834197085,
+                  "lng" : 77.34429831970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "f1a35de472f016426e3df95b5062e78808a3a2d7",
+         "name" : "Archies",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJFVZCRs76DDkRFV5J_cQBe74",
+         "plus_code" : {
+            "compound_code" : "J8VW+86 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+86"
+         },
+         "rating" : 4,
+         "reference" : "ChIJFVZCRs76DDkRFV5J_cQBe74",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "5/62, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.644179,
+               "lng" : 77.345298
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6455675802915,
+                  "lng" : 77.34667888029151
+               },
+               "southwest" : {
+                  "lat" : 28.6428696197085,
+                  "lng" : 77.34398091970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "873bcbaab5bb47d5b25c0ce4d7bf49d6b974d9e1",
+         "name" : "Om Sai Properties",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJZTLVwtD6DDkRhw6JJIhukqE",
+         "plus_code" : {
+            "compound_code" : "J8VW+M4 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+M4"
+         },
+         "reference" : "ChIJZTLVwtD6DDkRhw6JJIhukqE",
+         "scope" : "GOOGLE",
+         "types" : [ "real_estate_agency", "point_of_interest", "establishment" ],
+         "vicinity" : "Kaling Marg, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.643981,
+               "lng" : 77.345052
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6453615802915,
+                  "lng" : 77.3464275802915
+               },
+               "southwest" : {
+                  "lat" : 28.6426636197085,
+                  "lng" : 77.3437296197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "319aba7cdba0e6313c4804421a990d3889d0f1de",
+         "name" : "Uttarakhand Properties",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJi1yXNM76DDkRIKV7qBbP9P4",
+         "plus_code" : {
+            "compound_code" : "J8VW+H2 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+H2"
+         },
+         "reference" : "ChIJi1yXNM76DDkRIKV7qBbP9P4",
+         "scope" : "GOOGLE",
+         "types" : [ "real_estate_agency", "point_of_interest", "establishment" ],
+         "vicinity" : "Shop No: 174, 5, Kaling Marg, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.643532,
+               "lng" : 77.34610599999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6448391302915,
+                  "lng" : 77.3474205802915
+               },
+               "southwest" : {
+                  "lat" : 28.64214116970849,
+                  "lng" : 77.34472261970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4fcc11c802170fa13e1b4c5ff06f9a63aace05f1",
+         "name" : "Speed Properties",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJ9YwbUM76DDkRUG78YWoRAC0",
+         "plus_code" : {
+            "compound_code" : "J8VW+CC Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+CC"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ9YwbUM76DDkRUG78YWoRAC0",
+         "scope" : "GOOGLE",
+         "types" : [ "real_estate_agency", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Shop No.5/174, Primary School, Kaling Marg, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.643328,
+               "lng" : 77.346079
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6446944302915,
+                  "lng" : 77.34740133029149
+               },
+               "southwest" : {
+                  "lat" : 28.6419964697085,
+                  "lng" : 77.34470336970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4a9876c0e0ca4a77343e454da75c5ad6eb7c8fa8",
+         "name" : "Aryan Associates",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJiTctRc76DDkRb8C6HNXHNKY",
+         "plus_code" : {
+            "compound_code" : "J8VW+8C Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+8C"
+         },
+         "reference" : "ChIJiTctRc76DDkRb8C6HNXHNKY",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "Shop No, 902, Kaling Marg, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.6440396,
+               "lng" : 77.3462138
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6453965302915,
+                  "lng" : 77.3475696802915
+               },
+               "southwest" : {
+                  "lat" : 28.6426985697085,
+                  "lng" : 77.34487171970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "62c009e810eb98847f04bb4b55e59fe81bc2dc48",
+         "name" : "NEEDS SECURITY SOLUTION",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100927486491726844533\"\u003eNEEDS SECURITY SOLUTION\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAE9sh7rLFwwdwpQBLwsLXAYWypIhlOc4BrdVJ3MAJ_0NULBX2qF8xwzwL4Mb-58GX3_04QQWdTtSYHv6BrjgdhMtU328A2MDHqI3RHi2DhVNcOCEdXrjeEsGXsdGdpXLiEhAZhTVG7f3yxDjYFu-irudGGhQ4GErDES0a10igSUfJyDCGSdz54A",
+               "width" : 828
+            }
+         ],
+         "place_id" : "ChIJpw3wUs76DDkRWpDHTI4PfoQ",
+         "plus_code" : {
+            "compound_code" : "J8VW+JF Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+JF"
+         },
+         "rating" : 5,
+         "reference" : "ChIJpw3wUs76DDkRWpDHTI4PfoQ",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3,
+         "vicinity" : "Plot No-615 Flat, No-202, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.643732,
+               "lng" : 77.34460299999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6450974302915,
+                  "lng" : 77.3459682302915
+               },
+               "southwest" : {
+                  "lat" : 28.6423994697085,
+                  "lng" : 77.3432702697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c6c3eda68e3d6ae8d6f686eca174a13f8510f193",
+         "name" : "Property Needs",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJlan6Lc76DDkRgm-WXwO6wzw",
+         "plus_code" : {
+            "compound_code" : "J8VV+FR Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VV+FR"
+         },
+         "reference" : "ChIJlan6Lc76DDkRgm-WXwO6wzw",
+         "scope" : "GOOGLE",
+         "types" : [ "real_estate_agency", "point_of_interest", "establishment" ],
+         "vicinity" : "G.F. Plot n-615, Sec-5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.64363499999999,
+               "lng" : 77.344346
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6449802302915,
+                  "lng" : 77.34569963029151
+               },
+               "southwest" : {
+                  "lat" : 28.6422822697085,
+                  "lng" : 77.34300166970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "cc0969c00762fa360b5756df86d566bf390c6e20",
+         "name" : "BAKERY BAZAAR",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJC0ikLs76DDkRvyvIhOPOYGo",
+         "plus_code" : {
+            "compound_code" : "J8VV+FP Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VV+FP"
+         },
+         "rating" : 3.3,
+         "reference" : "ChIJC0ikLs76DDkRvyvIhOPOYGo",
+         "scope" : "GOOGLE",
+         "types" : [ "bakery", "food", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 3,
+         "vicinity" : "Plot No.423 , Sector-5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.642684,
+               "lng" : 77.345364
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6440074802915,
+                  "lng" : 77.34675068029151
+               },
+               "southwest" : {
+                  "lat" : 28.6413095197085,
+                  "lng" : 77.3440527197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a5533b2e26e95a81489174196524000b02612557",
+         "name" : "Wings Infovision",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJq6qqas76DDkR22_HJfY_zFs",
+         "plus_code" : {
+            "compound_code" : "J8VW+34 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+34"
+         },
+         "rating" : 5,
+         "reference" : "ChIJq6qqas76DDkR22_HJfY_zFs",
+         "scope" : "GOOGLE",
+         "types" : [ "electronics_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "612 First Floor, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.642684,
+               "lng" : 77.345364
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6440074802915,
+                  "lng" : 77.34675068029151
+               },
+               "southwest" : {
+                  "lat" : 28.6413095197085,
+                  "lng" : 77.3440527197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7368c3ac02babc5c1bdc544105673fe26aed1caa",
+         "name" : "Empowering Minds Society for Research & Development.",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 663,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107994989095109319246\"\u003eEmpowering Minds Society for Research &amp; Development.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAA4AVtBQEsKnirgKBTSyy0dLSZuZUpAm6jd99oUvXDH5rs5PlpjPhc9RnaTcImOOM9yGT1euzpIP_iP2x4ARiSG1iMEqjHzho2cH-ThioSnH4Wfh_sgtanPQpVh-FHL9EjEhASMKb3VYvZ5BTV-0BnOWyqGhSLDZdDASgCI_oNJ1x2CHpeCeiftA",
+               "width" : 663
+            }
+         ],
+         "place_id" : "ChIJQaO0KdD6DDkRGgG7Qr_1PJs",
+         "plus_code" : {
+            "compound_code" : "J8VW+34 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+34"
+         },
+         "rating" : 5,
+         "reference" : "ChIJQaO0KdD6DDkRGgG7Qr_1PJs",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "127, Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.642684,
+               "lng" : 77.3453639
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6440074802915,
+                  "lng" : 77.34675058029151
+               },
+               "southwest" : {
+                  "lat" : 28.6413095197085,
+                  "lng" : 77.34405261970851
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a5ab42c139b3a23fe28b8171f3e13f316b58e0ed",
+         "name" : "Physiotherapy Wellness Clinic & Home Care Service (Physiotherspist in Vaishali)",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1131,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106909121243022006546\"\u003ePhysiotherapy Wellness Clinic &amp; Home Care Service (Physiotherspist in Vaishali)\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAslIolvFBaLLfmmdXrWfvyoIZ9Hm5T6y4DxZ2AC2Zj6XUlYPXc89kT7A2HpqY8YNOyapcsq3D3mSkf6RG8bcMhtZq6jkBXPN8TQyLJr-9IJK2R8sasfjBEQQOupy_qviiEhD4aXWpy19kU3uZAlpttrzyGhRfxabs3dT78SDCC9IHt3epD4xjtg",
+               "width" : 1698
+            }
+         ],
+         "place_id" : "ChIJVVVVFc76DDkRd3oDd09XUA0",
+         "plus_code" : {
+            "compound_code" : "J8VW+34 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+34"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJVVVVFc76DDkRd3oDd09XUA0",
+         "scope" : "GOOGLE",
+         "types" : [
+            "physiotherapist",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 10,
+         "vicinity" : "Sector 5, Vaishali, Ghaziabad"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 28.642684,
+               "lng" : 77.3453639
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6440074802915,
+                  "lng" : 77.34675058029151
+               },
+               "southwest" : {
+                  "lat" : 28.6413095197085,
+                  "lng" : 77.34405261970851
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "92ff78afc4aefe0c8868496d9a0b352d535920a3",
+         "name" : "neeyastyle studio",
+         "place_id" : "ChIJVVVVFc76DDkRvr_dseLW0Zc",
+         "plus_code" : {
+            "compound_code" : "J8VW+34 Vaishali, Ghaziabad, Uttar Pradesh, India",
+            "global_code" : "7JWVJ8VW+34"
+         },
+         "reference" : "ChIJVVVVFc76DDkRvr_dseLW0Zc",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "NEEYA STYLE STUDIO Plot No. 1, Shop No. 4 Opposite Nokia Care,Sector 5 Vaishali, Ghaziabad."
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 28.6429341,
+               "lng" : 77.3401896
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 28.6566109,
+                  "lng" : 77.359555
+               },
+               "southwest" : {
+                  "lat" : 28.631921,
+                  "lng" : 77.317212
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "685f7d0fbdf90c560a9eeac94f6eb7ce94c3dc09",
+         "name" : "Vaishali",
+         "photos" : [
+            {
+               "height" : 2961,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116248989255129777573\"\u003eAjeet Singh Rawat\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAHf5XrbbfnWPcX4R3aUg8C-EzcwMQN_hdmzr2nwJza_gGpFr6x0qE6Xuk4-CR7RY4sWQEAo9U8OKXbwbV3yrgw2Jx_rlh8BUsTWk1rRtqKH6L9yuTyjPMk5wyKqwvgk69EhAmZwsUG-XU7dbBC0rixrnXGhRm6qcS33DFn5pcE-nbc1RNJIiHxg",
+               "width" : 5403
+            }
+         ],
+         "place_id" : "ChIJPcrGetD6DDkRlv1Qsi6Ul0c",
+         "reference" : "ChIJPcrGetD6DDkRlv1Qsi6Ul0c",
+         "scope" : "GOOGLE",
+         "types" : [ "sublocality_level_1", "sublocality", "political" ],
+         "vicinity" : "Vaishali"
+      }
+   ],
+   "status" : "OK"
+}
