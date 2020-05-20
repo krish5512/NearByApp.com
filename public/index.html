@@ -3,37 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon1.ico" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="NearByApp - Get to know your NearBy"
+      content="ShopsNearByMe - Get to know your NearBy"
     />
-   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-   <title>NearByApp - Get to know your NearBy</title> 
-
+   <title>ShopsNearByMe - Get to know your NearBy</title> 
   </head>
-  <body>
-    <h1>NearByApp - Get close to your nearby</h1> 
-  
-  <fieldset>
-    <label>Select the type of servie you wish to search</label>
+  <h1 id="headingClass">ShopsNearByMe - Get close to your nearby<img src="./icon.jpg" id="shopicon"/></h1> 
+  <body> 
+  <p>Select the type of service you wish to search : 
     <select id="mapTypeSelection">
       <option disabled selected value> -- select an option -- </option>
       <option value="atm" >ATM</option>
-      <option value="health" >doctor</option>
-      <option value="food" >restaurant</option>
+      <option value="health" >Doctor</option>
+      <option value="clothing_store">Garments</option>
+      <option value="drugstore">Pharmacy</option>
+      <option value="department_store">Departmental Store</option>
+      <option value="food" >Restaurant</option>
+      <option value="store">Local Store</option>
     </select>
     <button id="setType" onclick="initMap();">Submit</button>
-  </fieldset>
-  <!-- Map appears here -->
-  
+  </p>
   <div id="panell">
     <div id="map"></div>
-    <div id="panel"></div> 
+    <div id="panel"></div>    
+    <div id="root"></div>
 </div>
-
-<div id="root"></div>
 
   <script>
     let pos;
@@ -44,6 +42,21 @@
     let service;
     let infoPane;
     let typeSelect ;
+    
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('worker.js').then(function(registration) {
+          console.log('Worker registration successful', registration.scope);
+        }, function(err) {
+          console.log('Worker registration failed', err);
+        }).catch(function(err) {
+          console.log(err);
+        });
+      });
+    } else {
+      console.log('Service Worker is not supported by browser.');
+    }
+
     function initMap() {
       // Initialize variables
       typeSelect = document.getElementById('mapTypeSelection').value;
@@ -99,28 +112,22 @@
       // Call Places Nearby Search on the default location
       getNearbyPlaces(pos);
     }
-
-    // Perform a Places Nearby Search Request
-    function getNearbyPlaces(position,typeSelect) {
+        function getNearbyPlaces(position,typeSelect) {
       console.log(typeSelect)
       let request = {
         location: position,
-        rankBy: google.maps.places.RankBy.DISTANCE,
-        keyword: typeSelect
+        type: typeSelect,
+        radius : 15000
       };
 
       service = new google.maps.places.PlacesService(map);
       service.nearbySearch(request, nearbyCallback);
     }
-
-    // Handle the results (up to 20) of the Nearby Search
     function nearbyCallback(results, status) {
       if (status == google.maps.places.PlacesServiceStatus.OK) {
         createMarkers(results);
       }
     }
-
-    // Set markers at the location of each place result
     function createMarkers(places) {
       places.forEach(place => {
         let marker = new google.maps.Marker({
@@ -128,34 +135,22 @@
           map: map,
           title: place.name
         });
-
-        /* TODO: Step 4B: Add click listeners to the markers */
-        // Add click listener to each marker
         google.maps.event.addListener(marker, 'click', () => {
           let request = {
             placeId: place.place_id,
             fields: ['name', 'formatted_address', 'geometry', 'rating',
               'website', 'photos']
           };
-
-          /* Only fetch the details of a place when the user clicks on a marker.
-           * If we fetch the details for all place results as soon as we get
-           * the search response, we will hit API rate limits. */
           service.getDetails(request, (placeResult, status) => {
             showDetails(placeResult, marker, status)
           });
         });
 
-        // Adjust the map bounds to include the location of this marker
-        bounds.extend(place.geometry.location);
+           bounds.extend(place.geometry.location);
       });
-      /* Once all the markers have been placed, adjust the bounds of the map to
-       * show all the markers within the visible area. */
       map.fitBounds(bounds);
     }
 
-    /* TODO: Step 4C: Show place details in an info window */
-    // Builds an InfoWindow to display details above the marker
     function showDetails(placeResult, marker, status) {
       if (status == google.maps.places.PlacesServiceStatus.OK) {
         let placeInfowindow = new google.maps.InfoWindow();
@@ -188,13 +183,7 @@
       
       /* TODO: Step 4E: Display a Place Photo with the Place Details */
       // Add the primary photo, if there is one
-      // if (placeResult.photos) {
-      //   let firstPhoto = placeResult.photos[0];
-      //   let photo = document.createElement('img');
-      //   photo.classList.add('hero');
-      //   photo.src = firstPhoto.getUrl();
-      //   infoPane.appendChild(photo);
-      // }
+      
 
       // Add place details with text formatting
       let name = document.createElement('h4');
@@ -221,12 +210,34 @@
         websitePara.appendChild(websiteLink);
         infoPane.appendChild(websitePara);
       }
-
-      // Open the infoPane
+      if (placeResult.photos) {
+        let firstPhoto = placeResult.photos[0];
+        let photo = document.createElement('img');
+        photo.classList.add('hero');
+        photo.src = firstPhoto.getUrl();
+        infoPane.appendChild(photo);
+      }
+ 
       
       infoPane.classList.add("open");
      }
+
+     if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('worker.js').then(function(registration) {
+          console.log('Worker registration successful', registration.scope);
+        }, function(err) {
+          console.log('Worker registration failed', err);
+        }).catch(function(err) {
+          console.log(err);
+        });
+      });
+    } else {
+      console.log('Service Worker is not supported by browser.');
+    }
   </script>
   <script async defer src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyCUX3ELi1rKuy8hRRdHxMoDffZW_4wwI6k&libraries=places"></script>
-    </body>
+  
+ 
+</body>
 </html>

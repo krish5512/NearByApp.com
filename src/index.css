@@ -1,56 +1,61 @@
- /* Always set the map height explicitly to define the size of the div
-     * element that contains the map. */
-     #map {
-      height: 50%;
-      width: 100%;
-      background-color: grey;
-      /* margin-left: 100px; */
-      /* float: left; */
-      display:table-cell;
-      width:50%;
-    }
+ @import url(https://fonts.googleapis.com/css?family=Noto+Sans);  
 
-    /* Optional: Makes the sample page fill the window. */
+     #map {
+      height: 400px;
+      width:50%;
+      background-color:linear-gradient(#222, #efefef); 
+    /* /* margin-left: 50px; */
+      float: left; 
+      display:inline-block;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+    #shopicon
+    {
+      display: flex;
+      float: right;
+      margin-right: 50px;
+    }
     html,
     body {
       height: 100%;
       margin: 0;
-      padding: 0;
+      padding: 0 7px 0 0;
+      background-color:linear-gradient(#222, #efefef); 
+      overflow-x: hidden;
+      font-family: 'Nota Sans';
     }
-
+    #root {
+      display: inline-block;
+      width: 100%;
+      overflow-x: hidden;
+    }
+    #headingClass
+    {
+      font-family: 'Nota Sans';
+    }
     #panell
     {
-      display: table;
-      height: 50%;
+      display: inline-block;
+      height: 400px;
       width: 100%;
-      margin: 0;
-      border : 0;
-      position: absolute;
-      /* padding-left: 20%; */
+      position: absolute; 
+      font-family: 'Noto Sans';
+      font-weight: bold;
     }
-
-    /* TODO: Step 4A1: Make a generic sidebar */
-    /* Styling for an info pane that slides out from the left. 
-     * Hidden by default. */
     #panel {
-      height: 20%;
-      width: null;
-      background-color: white;
-      /* position: relative; */
+      height: 400px;
+     width: 650px;
+      /* background : linear-gradient(white, #efefef); */
       z-index: 1;
       overflow-x: hidden;
-      /* float: right; */
-      transition: all .2s ease-out;
-      display:table-cell;
-       width:50%;
-    }
-    
-    /* #close {
+      font-family: 'Noto Sans';
       float: right;
+      transition: all .2s ease-out;
       display:inline-block;
-      padding:2px 5px;
-      background:#ccc;
-  } */
+      border: 2px solid black;
+      border-radius: 4px;
+     }
     .open {
       width: 50%;
       height: 10%;
@@ -66,7 +71,7 @@
 
     .place,
     p {
-      font-family: 'open sans', arial, sans-serif;
+      font-family: 'Noto Sans';
       padding-left: 18px;
       padding-right: 18px;
     }
@@ -75,7 +80,16 @@
       color: black;
     }
 
-    a {
+    .a {
       text-decoration: none;
       color: cadetblue;
     }
+    
+@media only screen and (max-width: 480px) {
+  #map{
+    width: 100%;
+  }
+  #panel{
+  width: 100%;
+  }
+}

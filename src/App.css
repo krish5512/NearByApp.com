@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row 
+{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  overflow: auto;
+  padding: 0 5px 0 0;
+  
+}
+.secondDiv
+{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card {
+  border: 1px solid #000;
+  display: inline-block;
+  width: 175px;
+  height: 260px;
+  overflow: auto;
+  line-height: 95%;
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: left;
+  color: black;
+  box-shadow: 0 1px 5px #00000099;
+  border-radius: 10px;
+  background-size: cover;
+  position: relative;
+}
+.card:hover {
+  transition-duration: 150ms;
+  box-shadow: 0 5px 20px 5px #00000044;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn1
+{
+  background-color: #222;
+  color: white;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0 10px; 
+}
+
+.card.glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
+} 
+
+.footerClass
+{
+display: flex;
+  background-color:#222; 
+  justify-content: center;
+  color: white;
+}
+.fbData
+{
+  display: inline-block;
+  font-weight: bold;
+  background-color:linear-gradient(#222, #efefef);
+}
+.fbForm
+{
+  display: inline-block;
+  position: relative;
+    text-align: right;
+    color: black;
+}
+input{
+  border: 2px solid black;
+  border-radius: 4px;
+}
+label {
+  width: 30%;
+  position: absolute;
+  left: 40%;
+  text-align: right;
+  /* margin-right: 5px; */
+}
+@media only screen and (max-width: 480px) {
+  .fbForm {
+      width:95%;
+      right: 8%;
   }
-  to {
-    transform: rotate(360deg);
+  label{
+      width:40%;
+      left: 5%;
+  }
+  input{
+     left: 10%;
   }
 }
